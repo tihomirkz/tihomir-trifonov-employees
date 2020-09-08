@@ -297,7 +297,14 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
-    public void addResultToTable(){
+    public void addResultToTable() {
+
+        for(int j = 0; j < arrayCoupleEmployees.size(); j++){
+            if (arrayCoupleEmployees.get(j).getSumWorkDays() == 0) {
+                arrayCoupleEmployees.get(j).setSumWorkDays(arrayCoupleEmployees.get(j).getWorkDays());
+            }
+        }
+
         Collections.sort(
                 arrayCoupleEmployees,
                 new Comparator<CoupleEmployees>() {
