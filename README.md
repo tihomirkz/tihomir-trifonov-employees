@@ -29,6 +29,7 @@ c. Други виж тук (https://en.wikipedia.org/wiki/Coding_conventions )
 7) Решение на задачата да бъде сложено в github
 a. Repository Name да бъде „FirstName-LastName-employees (т.е. ivan-ivanovemployess)
 8) Да бъде направена в рамките на един ден.
+
 Бонус условия
 1) Да се направи UI, където потребителя да може да избере файл от файловата
 система и след избирането на файла да види резултата в “datagrid” със следните
